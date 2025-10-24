@@ -6,6 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <p></p>
+    for i in range(1, 51):
+    if i % 2 == 0:
+        print(f"{i} ლუწია")
+    else:
+        print(f"{i} კენტია")
+
+
+    for i in range(0, 21):
+    if i % 3 == 0 and i % 5 == 0:
+        print(f"{i} იყოფა 3-ზე და 5-ზე")
+    elif i % 3 == 0:
+        print(f"{i} იყოფა 3-ზე")
+    elif i % 5 == 0:
+        print(f"{i} იყოფა 5-ზე")
+    else:
+        print(f"{i} არ იყოფა არცერთზე")
+
+
+    num = int(input("შეიყვანე რიცხვი: "))
+even = 0
+odd = 0
+
+for i in range(0, num + 1):
+    if i % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+print(f"ლუწი რიცხვების რაოდენობა: {even}")
+print(f"კენტი რიცხვების რაოდენობა: {odd}")
+
+    
+
+
+
 </body>
 </html>
