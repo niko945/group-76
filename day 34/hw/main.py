@@ -33,13 +33,3 @@
 
 # print(f"წინადადებაში {iii} სიმბოლოა.")
 # print(f"წინადადებაში 'a' ან 'A' {fff} ჯერ გვხვდება.")
-
-
-lis = ["apple", "banana", "grapefruit", "kiwi", "watermelon"]
-hhh = ""
-
-for string in lis:
-    if len(string) > len(hhh):
-        hhh = string
-
-print(f"ყველაზე გრძელი სტრინგი: {hhh}")
