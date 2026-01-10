@@ -22,13 +22,13 @@
 #         print(letter)
 
 
-words = ["sew", "car", "fine", "type"]
+# words = ["sew", "car", "fine", "type"]
 
-for word in words[:]:
-    if len(word) > 4 or words.index(word) % 2 == 1:
-        words.remove(word)
+# for word in words[:]:
+#     if len(word) > 4 or words.index(word) % 2 == 1:
+#         words.remove(word)
 
-print(words)
+# print(words)
 
 
 # numbers = [4, 8, 12, 16]

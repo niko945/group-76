@@ -1,34 +1,58 @@
-# text = "python"
-# result = ""
+# words = ["syroup", "onion", "slayers", "monkey", "hippo"]
 
-# for i in text:
-#     result = i.upper() + result
+# i = 0
+# while i < len(words):
+#     if words[i].lower():
+#         words[i] = words[i].upper()
+#         i += 1
+#     else:
+#         words.pop(i)
 
-# print(result)
+# print(words)
 
+# text = "gaming"
+# result = []
 
-# text = "python"
-# result = ""
-
-# i = len(text) - 1
-# while i >= 0:
-#     result += text[i].upper()
-#     i -= 1
-
-# print(result)
-
-# text = "python"
-# result = ""
-
-# for i in range(len(text) - 1, -1, -1):
-#     result += text[i].upper()
+# i = 0
+# while i < len(text):
+#     if text[i].upper():
+#         result.append(text[i].lower())
+#     elif text[i].lower():
+#         result.append(text[i].upper())
+#     i += 1
 
 # print(result)
 
-# text = "python"
-# result = ""
 
-# for char in text:
-#     result = char.upper() + result
+# names = [ "NIKA", "luka", "DADU", "saba", "TASO"]
+# result = []
+
+# for name in names:
+#     if name.lower():
+#         result.insert(0, name.upper())
+#     elif name.upper():
+#         result.append(name.lower())
 
 # print(result)
+
+# cities = ["Tbilisi", "BATUMI", "gori", "SIGNAGI", "zugdidi"]
+
+# i = 0
+# while i < len(cities):
+#     if cities[i].isupper():
+#         cities.pop(i)
+#     else:
+#         cities[i] = cities[i].upper()
+#         i += 1
+
+# print(cities)
+
+
+text = "reppiz"
+reversed_text = ""
+
+for char in text:
+    reversed_text = char + reversed_text
+
+reversed_text = reversed_text.upper()
+print(reversed_text)

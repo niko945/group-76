@@ -38,12 +38,12 @@
 
 # print(new_list)
 
-numbers = "0123456789"
-result_for = []
+# numbers = "0123456789"
+# result_for = []
 
-for i in range(len(numbers)):
-    digit = int(numbers[i])
-    if i % 2 == 0 or digit >= 7:
-        result_for.append(digit)
+# for i in range(len(numbers)):
+#     digit = int(numbers[i])
+#     if i % 2 == 0 or digit >= 7:
+#         result_for.append(digit)
 
-print(result_for)
+# print(result_for)
