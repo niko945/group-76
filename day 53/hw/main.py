@@ -11,6 +11,9 @@
 
 # print(result)
 
+
+
+
 # numbers = [1, 2, 3, 4, 5, 6]
 # result = []
 
@@ -23,6 +26,9 @@
 #     i += 1
 
 # print(result)
+
+
+
 
 # words = ["Giorgi", "NIKA", "Luka", "ALEXANDER", "Tina"]
 # new_list = []
@@ -38,12 +44,18 @@
 
 # print(new_list)
 
+
+
+
+
+
+
 # numbers = "0123456789"
-# result_for = []
+# result = []
 
 # for i in range(len(numbers)):
-#     digit = int(numbers[i])
-#     if i % 2 == 0 or digit >= 7:
-#         result_for.append(digit)
+#     num = int(numbers[i])
+#     if i % 2 == 0 or num >= 7:
+#         result.append(num)
 
 # print(result_for)

@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    font-size: 20px;
+    color: darkgreen;
+}

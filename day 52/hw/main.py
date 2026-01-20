@@ -48,11 +48,11 @@
 # print(cities)
 
 
-text = "reppiz"
-reversed_text = ""
+# text = "reppiz"
+# reversed_text = ""
 
-for char in text:
-    reversed_text = char + reversed_text
+# for i in text:
+#     reversed_text = i + reversed_text
 
-reversed_text = reversed_text.upper()
-print(reversed_text)
+# reversed_text = reversed_text.upper()
+# print(reversed_text)
