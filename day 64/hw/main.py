@@ -1,0 +1,1 @@
+print("no homework for me")

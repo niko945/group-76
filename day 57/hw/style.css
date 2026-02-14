@@ -1,4 +1,4 @@
-.w{
+/* .w{
     font-size: 38px;
     color: blue;
     background-color: green;
@@ -25,15 +25,21 @@
     color: green;
     background-color: red;
     border: 8px solid brown;
-}
+} */
 
-.c {
+div h2 {
     font-size: 57px;
     color: yellow;
     background-color: orange;
     border: 5px solid green;
 }
 
+div p{
+    color: rgb(77, 11, 139);
+    background-color: rgb(29, 19, 0);
+    border: 5px solid rgb(0, 41, 0);
+}
+/* 
 .t table {
     font-size: 15px;
     color: blue;
@@ -48,4 +54,4 @@
     border: 3px solid black;
 }
 
-
+ */

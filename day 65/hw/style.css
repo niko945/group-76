@@ -1,0 +1,98 @@
+.fir {
+    color: blue;
+    font-size: 25px;
+    background-color: red;
+    border: 4px solid green;
+}
+
+.seco {
+    color: green;
+    font-size: 45px;
+    text-align: center;
+    background-color: yellow;
+    border: 7px solid purple;
+}
+
+.thi {
+    color: orange;
+    font-size: 14px;
+    text-align: left;
+    background-color: blue;
+    border: 2px solid pink;
+}
+
+
+#container {
+    color: brown;
+}
+
+#container h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#h1 { color:red; 
+    font-size:50px; 
+}
+
+#h2 { color:blue;
+    background:yellow; 
+}
+
+#h3 { color:green; 
+    border:3px solid black; 
+}
+
+#h4 { color:purple; 
+    text-align:center; 
+}
+
+#h5 { color:orange; 
+    background:pink; 
+}
+
+#h6 { color:brown; 
+    border:2px solid blue; 
+}
+
+#box1 {
+    background-color: lightgreen;
+    border: 3px solid black;
+}
+
+#box2 {
+    background-color: lightcoral;
+    border: 3px dashed blue;
+}
+
+
+.button-section {
+    text-align: center;
+}
+.button-section button {
+    text-align: center;
+    color: blue;
+    background-color: red;
+    border: 2px solid purple;
+}
+
+.bfb {
+    color: pink;
+    font-size: 30px;
+    background-color: blue;
+    border: 4px solid green;
+}
+
+button {
+    padding: 10px;
+}
+.hobby1 {
+    color: blue;
+    font-size: 20px;
+}
+
+.hobby2 {
+    color: red;
+    font-size: 25px;
+}
