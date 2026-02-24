@@ -1,0 +1,29 @@
+p {
+    text-decoration-line: line-through overline underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+h1 {
+    text-decoration-style: double;
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}
+
+h2 {
+    text-decoration-style: dotted;
+    text-decoration-line: overline;
+    text-decoration-color: green;
+}
+
+h3 {
+    text-transform: lowercase;
+}
+
+h4 {
+    text-transform: capitalize;
+}
+
+h5 {
+    text-transform: uppercase;
+}
