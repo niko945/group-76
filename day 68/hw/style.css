@@ -1,4 +1,4 @@
-.p1 {
+.pw1 {
     text-transform: uppercase;
 }
 
@@ -20,4 +20,30 @@
 
 .p6 {
     text-transform: capitalize;
+}
+
+.p7 {
+    text-shadow: 2px 2px 0 limegreen;
+}
+
+.p8 {
+    text-shadow: 0 0 5px lime, 0 0 10px lime, 0 0 20px green, 0 0 40px green;
+}
+
+.p9 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: pink;
+}
+
+.p10 {
+    text-decoration-line:line-through;
+    text-decoration-style:dashed;
+    text-decoration-color: lime;
+}
+
+.p11 {
+    text-decoration-line:overline;
+    text-decoration-style:dotted;
+    text-decoration-color: navy;
 }
