@@ -1,0 +1,42 @@
+.link1:link {
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link2:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.link3:visited {
+    color: purple;
+    font-family: Arial;
+}
+
+.link4:active {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.link5:hover {
+    text-decoration: underline;
+    color: green;
+    font-size: 20px;
+}
+
+.link6:visited {
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+}
+
+.link7:link {
+    color: yellow;
+    font-family: Verdana;
+}
+
+.link7:active {
+    border: 3px solid red;
+    background-color: pink;
+}
