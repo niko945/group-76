@@ -1,42 +1,42 @@
-.link1:link {
+.linki1:link {
     color: blue;
     font-size: 18px;
     text-decoration: none;
 }
 
-.link2:hover {
+.linki2:hover {
     font-weight: bold;
     color: red;
 }
 
-.link3:visited {
+.linki3:visited {
     color: purple;
     font-family: Arial;
 }
 
-.link4:active {
+.linki4:active {
     background-color: yellow;
     border: 2px solid black;
 }
 
-.link5:hover {
+.linki5:hover {
     text-decoration: underline;
     color: green;
     font-size: 20px;
 }
 
-.link6:visited {
+.linki6:visited {
     background-color: lightgray;
     color: darkblue;
     text-align: center;
 }
 
-.link7:link {
+.linki7:link {
     color: yellow;
     font-family: Verdana;
 }
 
-.link7:active {
+.linki7:active {
     border: 3px solid red;
     background-color: pink;
 }
