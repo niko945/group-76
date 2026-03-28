@@ -1,0 +1,19 @@
+.hobbie {
+    border: 2px solid #000000; 
+    color: #333; 
+    background-color: #f0f0f0; 
+    font-size: 16px; 
+    font-weight: bold;
+    list-style: inside;
+}
+
+.pruduct {
+    font-family: Arial, sans-serif; 
+    color: #444; 
+    background-color: #e0f7fa; 
+    border: 2px solid #00838f; 
+    font-size: 18px; 
+    font-weight: normal; 
+    text-align: center;
+    list-style: url("check_small_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png");
+}
