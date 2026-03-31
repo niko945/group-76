@@ -1,0 +1,32 @@
+table {
+    width: 80%;
+    margin: 40px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+th {
+    background-color: #3b3b3b;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+td {
+    padding: 14px;
+}
+
+
+tr:nth-child(2) { background-color: #4a90e2; }
+tr:nth-child(3) { background-color: #58a55c; } 
+tr:nth-child(4) { background-color: #f0b84b; } 
+tr:nth-child(5) { background-color: #d9534f; } 
+tr:nth-child(6) { background-color: #5bc0de; } 
+
+
+td, th {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}

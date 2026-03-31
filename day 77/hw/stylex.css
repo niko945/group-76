@@ -1,0 +1,75 @@
+.hobbie {
+    border: 2px solid #000000; 
+    color: #333; 
+    background-color: #f0f0f0; 
+    font-size: 16px; 
+    font-weight: bold;
+    list-style: inside;
+}
+
+.pruduct {
+    font-family: Arial, sans-serif; 
+    color: #444; 
+    background-color: #e0f7fa; 
+    border: 2px solid #00838f; 
+    font-size: 18px; 
+    font-weight: normal; 
+    text-align: center;
+    list-style: url("check_small_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png");
+}
+
+.random {
+    list-style: square; 
+    border: 2px solid #888; 
+    background-color: #fafafa; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #444; 
+    font-family: 'Times New Roman', serif;
+}
+
+.coulture {
+    list-style: upper-roman; 
+    border: 2px solid #888; 
+    background-color: #f1f1f1; 
+    font-size: 18px; 
+    font-weight: normal; 
+    color: #666; 
+    font-family: 'Georgia', serif;
+}
+
+.homework {
+    list-style: url('bullet.png') inside; 
+    border: 2px solid #00695c; 
+    background-color: #e8f5e9; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
+}
+
+.history {
+    list-style: url('history-icon.png'); 
+    border: 2px solid #3e2723; 
+    background-color: #efebe9; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 18px; 
+    color: #6a4f4b; 
+    text-align: justify;
+}
+
+.math {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f9fbe7; 
+    border: 2px solid #a5d6a7; 
+    text-align: center;
+}
+
+.recept {
+    list-style: decimal inside; 
+    font-family: 'Verdana', sans-serif; 
+    color: #444; 
+    background-color: #ffffff; 
+    font-size: 16px; 
+    border: 2px solid #c5cae9;
+}
