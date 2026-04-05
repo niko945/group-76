@@ -1,0 +1,78 @@
+.first {
+    margin: 20px 10px 15px 5px;
+}
+
+.second {
+    border: 2px solid black;
+    color: red;
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    padding: 100px;
+}
+
+.third {
+    border: 2px solid black;
+    color: green;
+    background-color:  pink;
+    height: 250px;
+    width: 250px;
+    padding: 200px 150px;
+}
+
+.firbut {
+    padding: 20px;
+}
+.fourth {
+    border: 3px solid red;
+    color: blue;
+    background-color: purple;
+}
+
+img {
+    padding: 25px 60px 45px 89px;
+}
+
+.fifth {
+    border: 3px solid yellow;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+
+}
+
+.secbut {
+    padding-top: 900px;
+    padding-bottom: 50px;
+}
+
+.inputfri {
+    border: 10px solid green;
+}
+
+.inputsec {
+    font-weight: 300;
+    color: navy;
+    background-color: black;
+    border-top: red;
+    border-right: green;
+    border-bottom: cyan;
+    border-left: brown;
+}
+
+button {
+    padding: 60px 40px;
+    border-top: red;
+    border-right: green;
+    border-bottom: cyan;
+    border-left: brown;
+    margin: 148px;
+}
+
+p {
+    margin: 148px;
+}
+
+h1 {
+    margin: 148px;
+}

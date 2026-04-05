@@ -1,0 +1,38 @@
+.first {
+    padding: 40px 100px;
+}
+
+.secound {
+    padding: 64px;
+}
+
+.third {
+    padding: 50px 20px 15px 70px;
+}
+
+.fourth {
+    padding-top:45px ;
+}
+
+.diffetrnt {
+    border-top: 2px solid red;
+    border-right: 2px solid black;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid orangeZ;
+}
+
+.fifth {
+    margin: 80px 20px;
+}
+
+.sixth {
+    margin: 40px;
+}
+
+.seventh {
+    margin: 10px 60px 35px 80px;
+}
+
+.eighth {
+    margin-bottom:45px ;
+}
