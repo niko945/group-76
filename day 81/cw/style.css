@@ -1,0 +1,16 @@
+.perent {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border: 3px solid yellow;
+}
