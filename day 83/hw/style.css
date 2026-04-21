@@ -1,3 +1,51 @@
+.secound {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ez {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+
+.third {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lol {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.forth {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lo {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+
+
 .perent {
     width: 500px;
     height: 500px;
