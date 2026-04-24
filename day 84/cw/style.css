@@ -15,9 +15,17 @@ body {
     align-items: center;
     gap: 10px;
 }
-
 .child {
     width: 100px;
     height: 100px;
     background-color: black ;
+}
+#others {
+    flex-grow: 1;
+}
+#otherss {
+    flex-basis: 200px;
+}
+#other {
+    flex-shrink: 3;
 }

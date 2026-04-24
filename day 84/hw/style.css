@@ -1,0 +1,161 @@
+.perent {
+    display: flex;
+}
+
+.child {
+    width: 100px;
+    background: lightblue;
+    border: 1px solid #000;
+}
+
+#diff {
+    flex-grow: 1;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+}
+
+
+.perent1 {
+    display: flex;
+}
+
+.child1 {
+    flex: 1;
+    padding: 20px;
+    background: lightgray;
+    transition: 0.3s;
+}
+
+.child1:hover {
+    background: orange;
+}
+
+#dif:hover {
+    flex-grow: 3;
+}
+
+
+.perent2 {
+    display: flex;
+}
+
+.lok {
+    flex-basis: 150px;
+}
+
+.lokk {
+    flex-basis: 150px;
+}
+
+.lokkk {
+    flex-basis: 150px;
+}
+
+
+.perent3 {
+    display: flex;
+}
+
+.chilld { 
+    flex-basis: 100px; 
+}
+
+.chillld { 
+    flex-basis: 200px; 
+}
+
+.chilllld { 
+    flex-basis: 300px; 
+}
+
+.chillllld { 
+    flex-basis: 150px; 
+}
+
+
+.perent4 {
+    display: flex;
+    width: 400px;
+}
+
+.po {
+    flex-basis: 200px;
+    border: 1px solid black;
+}
+
+.poo {
+    flex-shrink: 0;
+}
+
+.perent5 {
+    display: flex;
+    width: 400px;
+}
+
+.nika1 { 
+    flex-basis: 200px; 
+    flex-shrink: 1; 
+}
+
+.nika2 { 
+    flex-basis: 200px; 
+    flex-shrink: 2; 
+}
+
+.nika3 { 
+    flex-basis: 200px; 
+    flex-shrink: 3; 
+}
+
+
+.perent6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.olad {
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.navv {
+    display: flex;
+    align-items: center;
+}
+
+.logos {
+    flex-shrink: 0;
+}
+
+.menus {
+    display: flex;
+    flex-basis: 300px;
+    flex-shrink: 2;
+    justify-content: center;
+    list-style: none;
+}
+
+.button {
+    flex-shrink: 0;
+}
