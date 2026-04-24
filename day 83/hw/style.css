@@ -118,10 +118,11 @@ li {
 
 
 .main {
-    width: 400px;
+    width: 50%;
     border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 .nomain {

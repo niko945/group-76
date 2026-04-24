@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}        
+        
+        
+.perent {
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: black ;
+}
