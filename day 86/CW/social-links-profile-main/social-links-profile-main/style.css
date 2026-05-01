@@ -18,9 +18,8 @@ body {
     padding: 12px;
     border-radius: 15px;
     text-align: center;
-    height: 450px;
-    width: 300px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    height: 420px;
+    width: 260px;
 }
 
 .avatar {
@@ -30,17 +29,20 @@ body {
     margin-top:15px;
 }
 
-h2 {
+p {
     margin-top: 10px;
+    font-size: larger
 }
 
 .adgili {
     color: #a3e635;
+    font-size:11px;
     margin-bottom: 15px;
+    margin-top: 8px;
 }
 
 .bio {
-    font-size: 13px;
+    font-size: 12px;
     color: #ccc;
     margin-bottom: 20px;
 }
@@ -50,15 +52,17 @@ h2 {
     flex-direction: column;
     justify-content: center;
     margin:15px;
+    font-size: xx-small;
 }
 
 .gilaki a {
     background: #2a2a2a;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 11px;
     border-radius: 8px;
     margin-bottom: 10px;
+    font-weight: lighter;
 }
 
 .gilaki a:hover {

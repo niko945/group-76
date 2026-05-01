@@ -9,47 +9,77 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
+
 .perent {
     width: 930px;
-    height: 490px;
+    height: 470px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
     border-radius: 7px;
 }
 
 
 
-.child1 {
-    background-color: hsl(31, 77%, 52%);
-
+.child {
+    width: 260px;
+    height: 360px;
+    padding: 40px 30px;
+    color: white;
 }
 
-.child2 {
-    background-color: hsl(184, 100%, 22%);
+.child h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    letter-spacing: 2px;
 }
 
-.child3 {
-    background-color: hsl(179, 100%, 13%);
+.child p {
+    font-size: 14px;
 }
 
+
+#sedan { 
+    background: hsl(31, 77%, 52%);
+}
+
+#SUVs { 
+    background: hsl(184, 100%, 22%);
+}
+
+#Luxury { 
+    background: hsl(179, 100%, 13%);
+}
+
+#sedan button { 
+    color: hsl(31, 77%, 52%); 
+}
+#SUVs button { 
+    color: hsl(184, 100%, 22%); 
+}
+#Luxury button { 
+    color: hsl(179, 100%, 13%); 
+}
 
 
 .perent div {
     height: 100%;
     display: flex;
-    flex-direction: start;
-    justify-content: start;
-    padding:40px;
+    justify-content: center;
+    padding: 40px;
 }
 
-
-
-button {     
-    width: 150px;
-    height: 50px;
+.child button {
+    margin-top: 30px;
+    padding: 12px 25px;
     border-radius: 25px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
 }
