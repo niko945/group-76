@@ -9,11 +9,65 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(243, 243, 63);
+    background-color: hsl(47, 88%, 63%);
 }
 
 .perent {
-    width: 400px;
-    height: 400px;
+    width: 255px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 4px 0px black; 
+    overflow: hidden;
+}   
+
+.ill {
+    margin: 15px;
+    width: 225px;
+    border-radius: 10px;
+}
+
+.child {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80px;
+}
+.date {
+    font-size: 12px
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #555;
+}
+
+.artor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.artor img {
+    width: 20px;
+    border-radius: 50%;
+}
+
+h3:hover {
+    color: hsl(47, 88%, 63%) ;
 }
