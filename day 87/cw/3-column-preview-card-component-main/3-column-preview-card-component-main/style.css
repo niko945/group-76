@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -12,36 +15,88 @@ body {
     background-color: white;
 }
 
-.perent {
+.Parent {
     width: 930px;
-    height: 470px;
+    height: 2000px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     overflow: hidden;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 
 
 .child {
+    border-radius: 8px 0 0 8px;
     width: 260px;
-    height: 360px;
+    height: 450px;
     padding: 40px 30px;
     color: white;
 }
 
-.child h2 {
-    font-size: 28px;
-    margin: 20px 0;
-    letter-spacing: 2px;
+.child1 {
+    width: 260px;
+    height: 450px;
+    padding: 40px 30px;
+    color: white;
 }
+.child2 {
+    border-radius: 0 8px 8px 0;
+    width: 260px;
+    height: 450px;
+    padding: 40px 30px;
+    color: white;
+}
+
+.child h1 {
+    font-size: 30px;
+    margin: 30px 0;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+
+
+.child1 h1 {
+    font-size: 30px;
+    margin: 30px 0;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+
+
+.child2 h1 {
+    font-size: 30px;
+    margin: 30px 0;
+    font-family: "Big Shoulders", sans-serif;
+}
+
 
 .child p {
+    font-weight: light;
     font-size: 14px;
+    line-height: 25px;
+    font-family: "Lexend Deca", sans-serif;
 }
 
+
+
+.child1 p {
+    font-weight: light;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+
+.child2 p {
+    font-weight: light;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Lexend Deca", sans-serif;
+}
 
 #sedan { 
     background: hsl(31, 77%, 52%);
@@ -70,11 +125,34 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .child button {
-    margin-top: 30px;
+    margin-top: 70px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.child1 button {
+    margin-top: 70px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.child2 button {
+    margin-top: 70px;
     padding: 12px 25px;
     border-radius: 25px;
     border: none;
