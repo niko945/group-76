@@ -9,19 +9,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: hsl(218, 22%, 67%);
     Font-size: 16px
 }
 
 .perent {
-    width: 664px;
-    height: 500px;
-    background-color: white;
+    width: 570px;
+    height: 470px;
+    border-radius: 7px  ;
 }
 
 .first {
-    width: 663px;
-    height: 170px;
+    width: 570px;
+    height: 200px;
     background-color: white;
     padding: 25px;
 }
@@ -60,7 +60,13 @@ body {
 .second h4  {
     margin-bottom: 15px;
 }
-
+.dola {
+    font-size: 28px;
+    display: flex;
+}
 #lava {
-    font-size: ;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: lightgray;
 }
