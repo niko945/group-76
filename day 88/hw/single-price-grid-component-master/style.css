@@ -9,21 +9,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(218, 22%, 67%);
+    background-color: #e6eff6;
     Font-size: 16px
 }
 
 .perent {
-    width: 570px;
-    height: 470px;
-    border-radius: 7px  ;
+    width: 530px;
+    height: 460px;
 }
 
 .first {
-    width: 570px;
-    height: 200px;
+    width: 530px;
+    height: 195px;
     background-color: white;
     padding: 25px;
+    border-radius: 7px;
+    line-height: 25px;
 }
 
 .first h3 {
@@ -37,6 +38,7 @@ body {
 }
 
 #scond {
+    padding: 3px;
     color: grey;
 }
 
@@ -47,14 +49,15 @@ body {
 .second  {
     padding: 30px;
     width: 332px;
-    height: 200px;
+    height: 210px;
     background-color: hsl(179, 62%, 43%);
+    color: white;
 }
 
 .third {
     width: 332px;
-    height: 200px;
-    background-color: aqua ;
+    height: 210px;
+    background-color: #4abebd;
 }
 
 .second h4  {
@@ -62,11 +65,24 @@ body {
 }
 .dola {
     font-size: 28px;
+    font-weight: bold;
     display: flex;
 }
 #lava {
     margin-top: 8px;
     margin-left: 10px;
     font-size: 14px;
-    color: lightgray;
+    color: rgb(206, 243, 250);
+}
+
+.diff {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    width: 210px;
+    height: 40px;
+    background-color: hsl(71, 72%, 53%);
+    color: white;
 }
