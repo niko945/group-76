@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f3eae3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perent {
+    height: 370px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+}
+
+h1 {}
+
+.diff {
+    color: #8a8c91;
+    letter-spacing: 4px;
+}
+
+.child {
+    padding: 25px;
+}
+
+.chanel {
+    width: 250px;
+    height: 370px;
+    overflow: hidden;
+}

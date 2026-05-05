@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Karla", sans-serif;
 }
 
 body {
@@ -12,17 +13,15 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #e6eff6;
-    Font-size: 16px
-    font-family: "Karla", sans-serif;
 }
 
 .perent {
-    width: 530px;
+    width: 590px;
     height: 460px;
 }
 
 .first {
-    width: 530px;
+    width: 590px;
     height: 195px;
     background-color: white;
     padding: 25px;
@@ -42,7 +41,8 @@ body {
 
 #scond {
     padding: 3px;
-    color: grey;
+    color: hsl(223, 10%, 73%);
+    font-size: 16px;
 }
 
 .child {
@@ -50,46 +50,43 @@ body {
 }
 
 .second  {
-    padding: 30px;
-    width: 332px;
-    height: 22 0px;
+    padding: 25px;  
+    width: 295px;
+    height: 240px;
     background-color: hsl(179, 62%, 43%);
     color: white;
     border-radius: 0 0 0 7px;
 }
 
 .third {
-    width: 335px;
-    height: 22 0px;
+    width: 295px;
+    height: 240px;
     background-color: #4abebd;
     color: white;
     padding: 30px;
-}
-
-.second h4  {
-    margin-bottom: 15px;
 }
 .dola {
     font-size: 28px;
     font-weight: bold;
     display: flex;
+    gap: 5px;
 }
+
+
 #lava {
-    margin-top: 8px;
+    margin-top: 19px;
     margin-left: 10px;
     font-size: 14px;
-    color: rgb(206, 243, 250);
+    color: #68d4d6;
 }
 
-.diff {
-    margin-top: 10px;
-}
 
 button {
-    margin-top: 20px;
     width: 210px;
     height: 40px;
     background-color: hsl(71, 72%, 53%);
+    border: none;
+    margin-top: 15px;
     color: white;
 }
 
