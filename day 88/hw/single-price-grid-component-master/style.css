@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@ body {
     align-items: center;
     background-color: #e6eff6;
     Font-size: 16px
+    font-family: "Karla", sans-serif;
 }
 
 .perent {
@@ -23,7 +26,7 @@ body {
     height: 195px;
     background-color: white;
     padding: 25px;
-    border-radius: 7px;
+    border-radius: 7px 7px 0 0;
     line-height: 25px;
 }
 
@@ -49,15 +52,18 @@ body {
 .second  {
     padding: 30px;
     width: 332px;
-    height: 210px;
+    height: 22 0px;
     background-color: hsl(179, 62%, 43%);
     color: white;
+    border-radius: 0 0 0 7px;
 }
 
 .third {
-    width: 332px;
-    height: 210px;
+    width: 335px;
+    height: 22 0px;
     background-color: #4abebd;
+    color: white;
+    padding: 30px;
 }
 
 .second h4  {
@@ -85,4 +91,14 @@ button {
     height: 40px;
     background-color: hsl(71, 72%, 53%);
     color: white;
+}
+
+.third p {
+    font-size: 12px;
+    color: hsl(182, 62%, 71%);
+    line-height: 18px;
+}
+
+.plus {
+    margin-top: 15px;
 }
