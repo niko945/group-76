@@ -33,6 +33,21 @@
 #     return result
 
 
+# def difference_of_squares(n):
+#     total = 0
+#     for i in range(1, n + 1):
+#         total += i
+
+#     num = total * total
+
+#     sum = 0
+#     for i in range(1, n + 1):
+#         sum += i * i
+
+#     return num - sum
+
+
+
 # def sum_of_minimums(numbers):
 #     total= 0
     
