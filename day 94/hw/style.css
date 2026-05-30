@@ -22,17 +22,17 @@ body{
     right:0;
 }
 
-.card{
+.perent1{
     width:250px;
     position:relative;
     margin:30px;
 }
 
-.card img{
+.perent1 img{
     width:100%;
 }
 
-.sale{
+.gayida{
     position:absolute;
     top:10px;
     right:10px;
@@ -51,7 +51,7 @@ body{
     z-index:1000;
 }
 
-.chat-btn{
+.chati{
     position:fixed;
     bottom:20px;
     right:20px;
@@ -61,7 +61,7 @@ body{
     border-radius:50%;
 }
 
-.container{
+.perent2{
     width:400px;
     height:400px;
     background:lightgray;
@@ -69,7 +69,7 @@ body{
     margin:30px;
 }
 
-.corner{
+.child2{
     width:50px;
     height:50px;
     background:purple;
@@ -96,25 +96,25 @@ body{
     right:0;
 }
 
-.sticky-nav{
+.perent3{
     position:sticky;
     top:0;
     background:orange;
     padding:15px;
 }
 
-.profile{
+.pfp{
     width:150px;
     position:relative;
     margin:30px;
 }
 
-.profile img{
+.pfp img{
     width:100%;
     border-radius:50%;
 }
 
-.online{
+.saitze{
     width:20px;
     height:20px;
     background:green;
@@ -124,7 +124,7 @@ body{
     right:10px;
 }
 
-.top-btn{
+.zevit{
     position:fixed;
     bottom:80px;
     right:20px;
@@ -133,7 +133,7 @@ body{
     padding:10px;
 }
 
-.clock{
+.perent4{
     width:300px;
     height:300px;
     border:5px solid black;
@@ -142,7 +142,7 @@ body{
     margin:30px;
 }
 
-.dot{
+.child4{
     width:20px;
     height:20px;
     background:red;
@@ -170,7 +170,7 @@ body{
     top:140px;
 }
 
-.gallery{
+.fotoebi{
     display:flex;
     gap:20px;
     margin:30px;
@@ -201,8 +201,4 @@ body{
     color:white;
     text-align:center;
     padding:20px;
-}
-
-.spacer{
-    height:1000px;
 }
