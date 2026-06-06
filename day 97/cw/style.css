@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 1000vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    position: absolute;
+    background-color: red;
+    z-index: 1;
+    width: 220px;
+    height: 200px;
+    top: 160px;
+    left: 120px;
+}
+
+.blue {
+    position: absolute;
+    background-color: blue;
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.yellow {
+    position: absolute;
+    background-color: green;
+    z-index: 3;
+    width: 180px;
+    height: 180px;
+    top: 220px;
+    left: 180px;
+}
