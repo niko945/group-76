@@ -1,0 +1,30 @@
+.box {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background-color: hotpink;
+    z-index: 2;
+    top: 20px;
+    left: 40px;
+}
+
+.second {
+    background-color: deepskyblue;
+    z-index: 3;
+    top:80px;
+    left:180px;
+}
+
+.third {
+    background-color: green;
+    z-index: 1;
+    top:220px;
+    left:120px;
+}

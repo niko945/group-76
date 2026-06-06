@@ -1,0 +1,27 @@
+.box{
+    width:100px;
+    height:100px;
+    position:absolute;
+    border-radius:10px;
+}
+
+.first{
+    background:#222;
+    left:50px;
+    top:20px;
+    z-index:1;
+}
+
+.second{
+    background:#2979ff;
+    left:80px;
+    top:50px;
+    z-index:3;
+}
+
+.third{
+    background:#2e8b57;
+    left:110px;
+    top:75px;
+    z-index:2;
+}
