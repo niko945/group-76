@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1A2D;
+    font-family: "Outfit", sans-serif;
+}
+
+.main {
+    width: 300px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.Equilibrium {
+    width: 100%;
+    height: 255px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Equilibrium img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+h1 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 24px;
+    font-weight: 600;
+}
+
+.child {
+    margin-top: 18px;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.child1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.price img {
+    width: 11px;
+    height: 18px;
+}
+
+.time{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:hsl(215, 51%, 70%);
+}
+.line {
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+    margin: 15px 0;
+}
+
+.per {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.per img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.per p {
+    color: hsl(215, 51%, 70%);
+}
+
+.per span {
+    color: white;
+}
