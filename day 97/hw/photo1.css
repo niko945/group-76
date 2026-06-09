@@ -5,21 +5,21 @@
     border-radius:10px;
 }
 
-.first{
+.low{
     background:#222;
     left:50px;
     top:20px;
     z-index:1;
 }
 
-.second{
+.high{
     background:#2979ff;
     left:80px;
     top:50px;
     z-index:3;
 }
 
-.third{
+.meddum {
     background:#2e8b57;
     left:110px;
     top:75px;
