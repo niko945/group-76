@@ -32,19 +32,17 @@ body {
 .Equilibrium img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    display: block;
 }
 
-h1 {
+h2 {
     color: #fff;
-    font-size: 22px;
-    margin-top: 24px;
-    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 .child {
-    margin-top: 18px;
+    margin-top: 10px;
     color: hsl(215, 51%, 70%);
     line-height: 1.4;
     font-size: 15px;
@@ -55,6 +53,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
+    border-bottom: 1px solid #2F4159;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    background-size: ;
 }
 
 .price {
@@ -76,16 +78,12 @@ h1 {
     gap:8px;
     color:hsl(215, 51%, 70%);
 }
-.line {
-    height: 1px;
-    background: hsl(215, 32%, 27%);
-    margin: 15px 0;
-}
-
 .per {
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-top: 5px;
+    margin-top: 8px;
 }
 
 .per img {
