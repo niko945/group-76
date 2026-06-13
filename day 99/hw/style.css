@@ -44,14 +44,14 @@ body {
 }
 
 .perent6:hover{
+    background-color: cornsilk;
     transform: translate(10px,15px);
 }
 
 .perent7{
-    width:200px;
-    height:250px;
+    width:205px;
+    height:254px;
     background:white;
-    transition:0.3s;
 }
 .perent7:hover{
     transform: translateY(-10px);
