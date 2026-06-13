@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.perent1{
+    width:200px;
+    height:200px;
+    background:gray;
+    transform: translateX(100px);
+}
+
+.perent2{
+    width:150px;
+    height:150px;
+    background:red;
+    transform: translateY(80px);
+}
+
+.perent3{
+    width:150px;
+    height:150px;
+    background:blue;
+    transform: translateX(-50px);
+}
+
+.perent4{
+    width:150px;
+    height:150px;
+    background:green;
+    transform: translateY(-60px);
+}
+
+.perent5{
+    width:200px;
+    height:200px;
+    background:orange;
+    transform: translate(120px,70px);
+}
+
+.perent6:hover{
+    transform: translate(10px,15px);
+}
+
+.perent7{
+    width:200px;
+    height:250px;
+    background:white;
+    transition:0.3s;
+}
+.perent7:hover{
+    transform: translateY(-10px);
+    box-shadow:0 5px 15px gray;
+}
+
+.perent8{
+    width:150px;
+    height:150px;
+    background:purple;
+    transform: scaleX(2);
+}
+
+.perent9{
+    width:150px;
+    height:150px;
+    background:red;
+    transform: scaleY(1.5);
+}
+
+.perent10{
+    width:200px;
+    height:200px;
+    background:cyan;
+    transform: scale(1.5);
+}
+
+.perent11:hover{
+    transform: scale(1.2);
+}
+
+.perent12{
+    width:100px;
+    height:100px;
+    background:yellow;
+    transform: rotateX(30deg);
+}
+
+.perent13{
+    width:100px;
+    height:100px;
+    background:pink;
+    transform: rotateY(55deg);
+}
+
+.perent14:hover{
+    transform: rotate(90deg);
+}
+
+.perent15{
+    width:150px;
+    height:150px;
+    background:green;
+}
+.perent15:hover{
+    transform: rotateX(60deg);
+}
