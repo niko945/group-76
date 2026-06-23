@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    transition: 2s;
+        transform: rotate(120deg);
+    transform-origin: bottom right;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: background 2s ease-in 2s, transform 1s ease-in 2s,border-radius 2.5s ease-in 2s, 
+    box-shadow 6s ease-in 2s;
+}
+
+div:hover {
+    background: blue;
+    transform: translate(70px, 100px) rotate(400deg);
+    border-radius: 50%;
+    box-shadow: 0 15px 20px black;
+}
