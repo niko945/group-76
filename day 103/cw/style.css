@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+}
+
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: navy;
+    animation-name: nikaa;
+    animation-duration: 3s;
+    transform-origin: top right;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+}
+
+
+@keyframes nikaa {
+    from {
+
+    }
+
+
+    to {
+        transform: translateY(100px) rotate(90deg) scale(0.8);
+        background-color: purple;
+        border-radius: 50px;
+        width: 200px;
+        height: 200px;
+
+    }
+}
