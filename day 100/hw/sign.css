@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+}
+
+
+input{
+    padding:10px;
+    border:2px solid gray;
+
+    transition:all 0.4s;
+}
+
+input:focus{
+    border:2px solid blue;
+    transform:scale(1.05);
+    outline:none;
+}
+
+input:focus::placeholder{
+    color:red;
+}

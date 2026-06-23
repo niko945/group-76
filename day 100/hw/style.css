@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+}
+
+.first {
+    padding: 15px 30px;
+    background: blue;
+    color: white;
+    border: none;
+
+    transition:
+        transform 0.3s,
+        background-color 0.6s,
+        color 1s,
+        box-shadow 1.5s;
+}
+
+.first:hover {
+    transform: scale(1.2);
+    background-color: red;
+    color: yellow;
+    box-shadow: 0 0 20px black;
+}
+
+.second {
+    width: 250px;
+    height: 150px;
+    background: lightblue;
+    transition: height 0.5s;
+}
+
+.second:hover {
+    height: 300px;
+}
+
+
+
+.third {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.third img {
+    width: 120px;
+    transition: 0.5s;
+}
+
+.third h2 {
+    transition: 0.5s;
+}
+
+.third:hover {
+    box-shadow: 0 0 20px gray;
+}
+
+.third:hover img {
+    transform: scale(1.2);
+}
+
+.third:hover h2 {
+    color: red;
+}
+
+.forth {
+    width: 250px;
+    transition: all 1s ease-in-out;
+}
+
+.forth img {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.forth:hover {
+    transform: translateY(-10px);
+}
+
+.forth:hover img {
+    transform: scale(1.1);
+}
+
+
+.fifth {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.son {
+    width: 0;
+    height: 100%;
+    background: green;
+
+    transition:
+        width 4s ease-out 2s;
+}
+
+.fifth:hover .son {
+    width: 100%;
+}
+
+.sixth {
+    display: flex;
+    gap: 10px;
+}
+
+.sixth img {
+    width: 200px;
+    transition: all 1s ease-out;
+}
+
+.sixth:hover img {
+    transform: scale(0.8);
+}
+
+.sixth img:hover {
+    transform: scale(1.2);
+}
+
+
+.seven {
+    width: 250px;
+    height: 100px;
+    background: lightgray;
+    overflow: hidden;
+
+    transition:
+        height 1s,
+        background-color 1s;
+}
+
+
+.seven:hover {
+    height: 200px;
+    background: lightgreen;
+}
+
+
+
+.eight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+
+    transition: all 0.5s linear;
+    transition-delay: 0.5s;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.red:hover {
+    box-shadow: 0 0 25px red;
+}
+
+.yellow:hover {
+    box-shadow: 0 0 25px yellow;
+}
+
+.green:hover {
+    box-shadow: 0 0 25px green;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    color: red;
+    transform: scale(1.2);
+    letter-spacing: 3px;
+}
