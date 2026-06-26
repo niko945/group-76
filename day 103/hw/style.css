@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+}
+
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first {
+    from {}
+
+    to {
+        transform: translateX(500px);
+    }
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation-name: second;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes second {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+
+.third {
+    opacity: 0;
+    animation-name: third;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes third {
+    from {
+    
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.forth {
+    animation-name: forth;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes forth {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.fifth {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+    animation-name: fifth;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fifth {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(300px);
+    }
+}
+
+.sixth {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    animation-name: sixth;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+}
+
+@keyframes sixth {
+    from {
+    }
+
+    to {
+        transform: translateX(1440px);
+    }
+}
+
+.seventh {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: seventh;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes seventh {
+    from {
+        transform: translateY(250px);
+    }
+
+    to {
+        background-color: orange;
+    }
+}
+
+
+.eigth {
+    width: 0;
+    height: 100px;
+    background-color: red;
+    animation-name: eigth;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes eigth {
+    from {
+
+    }
+
+    to {
+        width: 400px;
+    }
+}
+
+.nineth {
+    width: 100px;
+    height: 100px;
+    animation-name: nineth;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes nineth {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1.5);
+        background-color: red;
+    }
+}
+
+
+.ten {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ten;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ten {
+    from {
+
+    }
+
+    to {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        transform: rotate(360deg);
+        
+    }
+}
