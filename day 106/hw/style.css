@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justif {
+    display: grid;
+    width: 600px;
+    height: 200px;
+    background-color: red;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+}
+
+.align {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+}
+
+.items {
+    width: 60px;
+    height: 40px;
+    background: red;
+}
+
+.perent {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: 700px;
+    height: 250px;
+    justify-content: start;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    background-color: blueviolet;
+}
+
+.perent1 {
+    display: grid;
+    width: 700px;
+    height: 500px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 70px 70px;
+    align-content: start;
+    /* align-content: center; */
+    /* align-content: end; */
+    background-color: darkolivegreen;
+}
+
+.perent2 {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    justify-items: start;
+}
+
+.child {
+    width: 60px;
+    height: 60px;
+    background-color: firebrick;
+}
+
+
+.perent3 {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px;
+    align-items: start;
+}
+
+.child2 {
+    width: 60px;
+    height: 40px;
+    background-color: dodgerblue;
+}
+
+.perent4 {
+    display: grid;
+    width: 900px;
+    height: 500px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#nums {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first {
+    background: red;
+}
+
+.second {
+    background: blue;
+}
+
+.third {
+    background: green;
+}
+
+.forth {
+    background: orange;
+}
+
+.fifth {
+    background: purple;
+}
+
+.sixth {
+    background: brown;
+}
+
+.seventh {
+    background: deeppink;
+}
+
+.eigth {
+    background: teal;
+}
+
+.nine {
+    background: gold;
+    color: black;
+}
+
+.ten {
+    background: gray;
+}
+
+.eleven {
+    background: navy;
+}
+
+.twelwe {
+    background: crimson;
+}
