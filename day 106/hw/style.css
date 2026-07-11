@@ -58,6 +58,9 @@ body {
     background-color: darkolivegreen;
 }
 
+
+
+
 .perent2 {
     display: grid;
     grid-template-columns: 120px 120px 120px;
@@ -69,6 +72,10 @@ body {
     height: 60px;
     background-color: firebrick;
 }
+
+
+
+
 
 
 .perent3 {

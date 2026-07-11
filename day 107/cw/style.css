@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perent {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border: 3px solid navy;
+}
+
+.main {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    border: 2px solid red;
+    justify-items: end;
+    align-items: start;
+}
+
+.small {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+#chosen {
+    justify-self: start;
+    align-self: end;
+}
