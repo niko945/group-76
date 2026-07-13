@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.perent {
+    width: 1025px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.child {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.child h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.child h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.child p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.child img {
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#saerto {
+    display: flex;
+    gap: 18px;
+}
+
+.erti {
+    background: #733FC8;
+    color: white;
+    grid-column: 1 / 3;
+    box-shadow: 30px 50px 20px #CDCED3;
+}
+
+.ori {
+    background: #48556A;
+    color: white;
+    box-shadow: 30px 50px 20px #CDCED3;
+}
+
+.sami {
+    background: white;
+    color: #48556A;
+    grid-column: 4;
+    grid-row: 1 / 3;
+    box-shadow: 30px 50px 20px #CDCED3;
+}
+
+.otxi {
+    background: white;
+    color: #48556A;
+    box-shadow: 30px 50px 20px #CDCED3;
+}
+
+.xuti {
+    background: #19212E;
+    color: white;
+    grid-column: 2 / 4;
+    box-shadow: 30px 50px 300px #CDCED3;
+}
