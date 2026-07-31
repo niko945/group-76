@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.main {
+    width: 650px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    gap: 10px;
+}
+
+.same {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.erti {
+    background-color: #FAEEE2;
+    grid-row: 1 /  10;
+    grid-column: 1 / 2;
+    padding: 40px 25px;
+}
+
+.erti h1 {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.erti h1 span {
+    color: #7651DC;
+}
+.erti img {
+    width: 130px;
+    transform: translateY(20px);
+}
+
+
+.ori {
+    background-color: #7651DC;
+    grid-row: 1 / 9;
+    grid-column: 2 / 4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+}
+
+.ori h1 {
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ori p {
+    font-size: 11px;
+}
+
+.ori img {
+    width: 120px;
+}
+
+.sami {
+    background-color: #DCD1FC;
+    grid-column: 4 / 5;
+    grid-row: 1 / 14;
+    width: 160px;
+    overflow: hidden;
+}
+
+.sami h1 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1;
+    transform: translate(20px ,20px);
+}
+
+.sami p {
+    font-size: 12px;
+    line-height: 1;
+    transform: translateX(14px) translateY(55px);
+}
+
+.sami img {
+    width: 230px;
+    height: 200px;
+    transform: translateX(20px) translateY(40px);
+    overflow: hidden;
+}
+
+.otxi {
+    background-color: #FFFFFF;
+    grid-column: 2 / 3;
+    grid-row: 9 / 14;
+    width: 170px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.otxi h1 {
+    font-size: 17px;
+    line-height: 0.9;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.otxi img {
+    width: 225px;
+}
+
+.xuti {
+    background-color: #FFCC6A;
+    grid-column: 3 / 4;
+    grid-row: 9 / 14;
+    width: 160px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.xuti h1 {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.xuti img {
+    width: 130px;
+    transform: translateX(15px) translateY(-5px);
+}
+
+.eqvsi {
+    background-color: #FFCC6A;
+    grid-column: 1 / 2;
+    grid-row: 10 / 19;
+    width: 170px;
+}
+
+.eqvsi h1 {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.eqvsi img {
+    width: 150px;
+    height: 140px;
+    transform: translateX(15px);
+}
+
+.shvidi {
+    background-color: #FFFFFF;
+    grid-column: 2 / 3;
+    grid-row: 14 / 19;
+    padding: 10px;
+}
+
+.shvidi h1 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.shvidi img {
+    width: 100px;
+    transform: translateY(20px);
+}
+
+.rva {
+    background-color: #7651DC;
+    grid-column: 3 / 5;
+    grid-row: 14 / 19;
+    justify-content: center;
+    height: 160px;
+}
+
+.rva h1 {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 500;
+    transform: translateX(-10px) translateY(20px);
+    color: white;
+}
+
+.rva img {
+    width: 160px;
+    padding: 10px;
+}

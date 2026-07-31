@@ -1,0 +1,1 @@
+print("ekarni gavziaret")
