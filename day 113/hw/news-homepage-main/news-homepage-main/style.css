@@ -105,8 +105,7 @@ body {
 }
 
 .nice {
-    display: flex;
-    
+    display: flex
 }
 
 .nice img {
@@ -116,13 +115,12 @@ body {
 .nice h3 {
     font-size: 25px;
     color: #F65E52;
+    flex-direction: column;
 }
 
 .nice h5 {
-    transform: translateY(40px) translateX(-25px);
     font-weight: 800;
     font-size: 11px;
-    line-height:;
 }
 
 .nice p {

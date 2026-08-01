@@ -33,7 +33,7 @@ body {
 
 .erti {
     background-color: #FAEEE2;
-    grid-row: 1 /  10;
+    grid-row: 1 /  11;
     grid-column: 1 / 2;
     padding: 40px 25px;
 }
@@ -62,6 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 340px;
+    height: 200px   ;
 }
 
 .ori h1 {
@@ -152,7 +153,7 @@ body {
 .eqvsi {
     background-color: #FFCC6A;
     grid-column: 1 / 2;
-    grid-row: 10 / 19;
+    grid-row: 11 / 19;
     width: 170px;
 }
 
