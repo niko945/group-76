@@ -190,6 +190,7 @@ ul {
 .loa p {
     font-size: 36px;
     font-weight: 400;
+    width: 60%;
 }
 
 .loa span {
@@ -199,6 +200,8 @@ ul {
 }
 
 #nika {
+    display: flex;
+    align-items: end;
     text-align: right;
 }
 
@@ -352,12 +355,12 @@ ul {
         flex-direction: column;
         text-align: center;
     }
-
+    
     #five {
         flex-direction: column-reverse;
     }
 
-    #five .loa {
+    #five .loa{
         text-align: center;
     }
 
@@ -376,6 +379,10 @@ ul {
 
     .loa span {
         font-size: 14px;
+    }
+
+    #nika {
+        align-items: center;
     }
 
 }
