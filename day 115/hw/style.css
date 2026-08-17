@@ -205,6 +205,161 @@ ul {
     text-align: right;
 }
 
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 99px;
+    gap: 70px;
+}
+
+.five h1 {
+    font-size: 36px;
+    font-weight: 400;
+    width: 28%;
+}
+
+.child1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.little {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.little div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.little p {
+    font-size: 30px;
+    font-weight: 700;
+    width: 55%;
+}
+
+.six {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 102px;
+}
+
+.six h1 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+}
+
+.child2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.child2 img {
+    width: 290px;
+    height: 350px;
+}
+
+.child2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.child2 h2 {
+    font-size: 22px;
+    font-weight: 700;
+    width: 50%;
+}
+
+.child2 p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 42%;
+}
+
+.child2 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 430px;
+    gap: 15px;
+}
+
+.seven h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.seven p {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    width: 70%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.child3 {
+    display: flex;
+    gap: 66px;
+}
+
+.child3 input {
+    width: 153px;
+    height: 39px;
+    padding: 10px;
+}
+
+#plt {
+    width: 368px;
+    height: 39px;
+    padding: 10px;
+}
+
+form button {
+    width: 115px;
+    height: 33px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+
 @media(max-width:1300px) {
     .child h1 {
         font-size: 40px;
@@ -243,6 +398,58 @@ ul {
     .loa span {
         font-size: 14px;
     }
+}
+
+@media(max-width:1200px) {
+    .child1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .five h1 {
+        font-size: 30px;
+        width: 40%;
+    }
+
+    .six {
+        padding: 60px;
+    }
+
+    .six h1 {
+        font-size: 28px;
+        width: 70%;
+    }
+
+    .child2 img {
+        width: 260px;
+        height: 310px;
+    }
+
+    .child2 h2 {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .child2 p {
+        font-size: 17px;
+        width: 50%;
+    }
+
+    .child2 a {
+        font-size: 16px;
+    }
+
+    .seven {
+        padding: 60px 370px;
+    }
+
+    .seven h1 {
+        font-size: 30px;
+    }
+
+    .seven p {
+        font-size: 15px;
+    }
+
 }
 
 @media(max-width:931px) {
@@ -297,6 +504,45 @@ ul {
     }
 
 
+    .five h1 {
+        font-size: 25px;
+        width: 50%;
+    }
+
+    .five {
+        padding: 39px;
+    }
+
+    .little div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .little p {
+        font-size: 20px;
+    }
+
+    .seven {
+        padding: 60px 300px;
+    }
+
+    .seven h1 {
+        font-size: 25px;
+    }
+
+    .seven p {
+        font-size: 15px;
+    }
+
+    .child3 input {
+        width: 120px;
+        height: 30px;
+    }
+
+    #plt {
+        width: 305px;
+        height: 30px;
+    }
 }
 
 @media(max-width:768px) {
@@ -355,12 +601,12 @@ ul {
         flex-direction: column;
         text-align: center;
     }
-    
+
     #five {
         flex-direction: column-reverse;
     }
 
-    #five .loa{
+    #five .loa {
         text-align: center;
     }
 
@@ -385,4 +631,62 @@ ul {
         align-items: center;
     }
 
+    .five {
+        padding: 30px;
+    }
+
+    .little div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .little p {
+        font-size: 15px;
+    }
+
+    .five h1 {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .six {
+        padding: 40px;
+    }
+
+    .six h1 {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .child2 img {
+        width: 230px;
+        height: 270px;
+    }
+
+    .child2 h2 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .child2 p {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .child2 a {
+        font-size: 13px;
+    }
+
+    .seven {
+        padding: 60px 260px;
+    }
+
+    .seven h1 {
+        font-size: 17px;
+    }
+
+    .seven p {
+        font-size: 12px;
+        width: 90%;
+    }
 }
