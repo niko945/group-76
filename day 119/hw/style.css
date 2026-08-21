@@ -65,8 +65,47 @@ button {
     font-weight: 500;
 }
 
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 66px 100px;
+    background-color: #f5f7fa;
+    position: relative;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 41%;
+}
+
+.first div h1 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 1;
+}
+
+.first div p {
+    font-size: 11px;
+    font-weight: 500;
+    color: #717171;
+}
+
+#nice {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
 span {
     color: #4CAF4F;
+}
+
+#photo {
+    width: 300px;
 }
 
 @media(max-width:1000px) {
@@ -77,6 +116,23 @@ span {
     #nika {
         width: 90px;
     }
+
+    .first {
+        padding: 66px 30px;
+    }
+
+    .first div {
+        width: 50%;
+    }
+
+    .first div h1 {
+        font-size: 30px;
+    }
+
+    #photo {
+        width: 200px;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -86,5 +142,16 @@ span {
 
     #burger {
         display: flex;
+    }
+
+    .first {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .first div {
+        width: 100%;
+        text-align: center;
+        align-items: center;
     }
 }
