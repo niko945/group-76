@@ -360,6 +360,84 @@ form button {
     border-radius: 100px;
 }
 
+footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 35px 140px;
+}
+
+.eight {
+    width: 100%;
+}
+
+.child4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgs {
+    width: 473px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.logo {
+    color: white;
+}
+
+.logo img {
+    width: 130px;
+    height: 40px;
+    color: white;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.links h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 209px;
+    height: 180px;
+    padding: 10px 20px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 @media(max-width:1300px) {
     .child h1 {
         font-size: 40px;
@@ -543,6 +621,39 @@ form button {
         width: 305px;
         height: 30px;
     }
+
+    footer {
+        width: 100%;
+        background: #000;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .links h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .contact a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .contact h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .imgs {
+        width: 103px;
+        height: 146px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 40px;
+        color: white;
+    }
 }
 
 @media(max-width:768px) {
@@ -688,5 +799,10 @@ form button {
     .seven p {
         font-size: 12px;
         width: 90%;
+    }
+
+    .logo img {
+        display: flex;
+        justify-content: center;
     }
 }
