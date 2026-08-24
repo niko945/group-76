@@ -108,6 +108,85 @@ span {
     width: 300px;
 }
 
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.nice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nice h1 {
+    font-size: 25px;
+    font-family: 600;
+    color: #4D4D4D;
+    line-height: 1;
+}
+
+.nice p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.poris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    flex-wrap: wrap;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 100px;
+    gap: 5px;
+}
+
+.third h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.third p {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.big {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.same {
+    text-align: center;
+}
+
+.same img {
+    width: 33px;
+}
+
+.same h1 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.same p {
+    line-height: 1;
+}
+
+
 @media(max-width:1000px) {
     header {
         padding: 20px 30px;
@@ -132,6 +211,15 @@ span {
     #photo {
         width: 200px;
     }
+
+    .second {
+        padding: 20px 30px;
+    }
+
+    .poris {
+        gap: 65px;
+    }
+
 
 }
 
