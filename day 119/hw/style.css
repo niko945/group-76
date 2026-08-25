@@ -165,12 +165,16 @@ span {
 
 .big {
     display: flex;
+    width: 100%;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20%;
 }
 
 .same {
     text-align: center;
+    width: 206px;
 }
 
 .same img {
@@ -180,6 +184,7 @@ span {
 .same h1 {
     font-size: 19px;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .same p {
@@ -344,6 +349,106 @@ span {
     height: 23px;
 }
 
+.eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 100px;
+    gap: 20px;
+    text-align: center;
+}
+
+.text {
+    width: 45%;
+}
+
+.text h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #4D4D4D;
+
+}
+
+.text p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.big-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bingo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    gap: 20px;
+}
+
+.bingo img {
+    border-radius: 6px;
+}
+
+.alone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 204px;
+    background-color: #F5F7FA;
+    position: absolute;
+    bottom: -30px;
+    padding: 18px 11px;
+}
+
+#lonly {
+    padding: 11px 11px;
+}
+
+.alone p {
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 600;
+    color: #717171;
+}
+
+.alone h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4CAF4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alone img {
+    width: 16px;
+}
+
+.nine {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 100px;
+    width: 100%;
+    gap: 30px;
+}
+
+.nine h1 {
+    font-size: 44px;
+    font-weight: 600;
+    width: 40%;
+    line-height: 1.2;
+}
+
 
 @media(max-width:1100px) {
     .txt {
@@ -428,6 +533,47 @@ span {
     .seven {
         padding: 20px 30px;
     }
+
+    .eight {
+        padding: 20px 30px;
+    }
+
+    .calke {
+        width: 170px;
+    }
+
+    .alone {
+        width: 130px;
+    }
+
+    .alone p {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .alone h6 {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .alone img {
+        width: 16px;
+    }
+
+    #lonly {
+        padding: 18px 11px;
+    }
+
+    .nine {
+        padding: 50px 30px;
+    }
+
+    .nine h1 {
+        font-size: 35px;
+        width: 50%;
+    }
+
+
 }
 
 @media(max-width:900px) {
@@ -473,6 +619,24 @@ span {
     .six img {
         width: 200px;
     }
+
+    .big-div {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 20px;
+    }
+
+    .text p {
+        font-size: 10px;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -554,6 +718,11 @@ span {
 
     .iaw {
         font-size: 7px;
+    }
+
+    .nine h1 {
+        font-size: 20px;
+        width: 55%;
     }
 
 }
