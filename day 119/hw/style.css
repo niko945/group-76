@@ -449,280 +449,353 @@ span {
     line-height: 1.2;
 }
 
-
-@media(max-width:1100px) {
-    .txt {
-        width: 25%;
-    }
-
-    .txt h1 {
-        font-size: 20px;
-    }
-
+footer {
+    background-color: #263238;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
 }
 
-@media(max-width:1000px) {
-    header {
-        padding: 20px 30px;
-    }
-
-    #nika {
-        width: 90px;
-    }
-
-    .first {
-        padding: 66px 30px;
-    }
-
-    .first div {
-        width: 50%;
-    }
-
-    .first div h1 {
-        font-size: 30px;
-    }
-
-    #photo {
-        width: 200px;
-    }
-
-    .second {
-        padding: 20px 30px;
-    }
-
-    .poris {
-        gap: 65px;
-    }
-
-    .four {
-        padding: 20px 30px;
-    }
-
-    .four img {
-        width: 255px;
-    }
-
-    .tct {
-        width: 45%;
-    }
-
-    .tct h1 {
-        font-size: 20px;
-    }
-
-    .five {
-        padding: 20px 30px;
-    }
-
-    .txt {
-        width: 35%;
-    }
-
-    .six {
-        padding: 40px 30px;
-    }
-
-    .kioa {
-        width: 45%;
-    }
-
-    .kioa h1 {
-        font-size: 20px;
-    }
-
-    .seven {
-        padding: 20px 30px;
-    }
-
-    .eight {
-        padding: 20px 30px;
-    }
-
-    .calke {
-        width: 170px;
-    }
-
-    .alone {
-        width: 130px;
-    }
-
-    .alone p {
-        font-size: 10px;
-        width: 80%;
-    }
-
-    .alone h6 {
-        font-size: 10px;
-        width: 80%;
-    }
-
-    .alone img {
-        width: 16px;
-    }
-
-    #lonly {
-        padding: 18px 11px;
-    }
-
-    .nine {
-        padding: 50px 30px;
-    }
-
-    .nine h1 {
-        font-size: 35px;
-        width: 50%;
-    }
-
-
+.good {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
 }
 
-@media(max-width:900px) {
-    .seven {
-        flex-direction: column;
-    }
-
-    .guf {
-        text-align: center;
-        align-items: center;
-        width: 90%;
-    }
+#only {
+    width: 130px;
 }
 
-@media(max-width:768px) {
-    .five {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .txt {
-        width: 100%;
-        text-align: center;
-    }
-
-    .txt h1 {
-        font-size: 15px;
-    }
-
-
-    .biy img {
-        width: 25px;
-    }
-
-    .biy h1 {
-        font-size: 15px;
-    }
-
-    .biy p {
-        font-size: 10px;
-    }
-
-    .six img {
-        width: 200px;
-    }
-
-    .big-div {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .text {
-        width: 100%;
-    }
-
-    .text h1 {
-        font-size: 20px;
-    }
-
-    .text p {
-        font-size: 10px;
-    }
-
+.good p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #F5F7FA;
 }
 
-@media(max-width:600px) {
-    nav {
-        display: none;
-    }
+.okia img {
+    width: 22px;
+}
 
-    #burger {
+.main-div {
+    display: flex;
+    gap: 40px;
+}
+
+.duty {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+    position: relative;
+}
+
+.duty h1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.duty p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #F5F7FA;
+}
+
+input {
+    width: 177px;
+    height: 27px;
+    background-color: grey;
+    border: none;
+
+    form {
         display: flex;
-    }
-
-    .first {
-        flex-direction: column;
-        gap: 45px;
-    }
-
-    .first div {
-        width: 100%;
-        text-align: center;
         align-items: center;
     }
 
-    .third {
-        padding: 20px 30px;
+    form img {
+        position: absolute;
+        right: 10px;
     }
 
-    .third h1 {
-        font-size: 13px;
+    @media(max-width:1100px) {
+        .txt {
+            width: 25%;
+        }
+
+        .txt h1 {
+            font-size: 20px;
+        }
+
     }
 
-    .four {
-        flex-direction: column;
+    @media(max-width:1000px) {
+        header {
+            padding: 20px 30px;
+        }
+
+        #nika {
+            width: 90px;
+        }
+
+        .first {
+            padding: 66px 30px;
+        }
+
+        .first div {
+            width: 50%;
+        }
+
+        .first div h1 {
+            font-size: 30px;
+        }
+
+        #photo {
+            width: 200px;
+        }
+
+        .second {
+            padding: 20px 30px;
+        }
+
+        .poris {
+            gap: 65px;
+        }
+
+        .four {
+            padding: 20px 30px;
+        }
+
+        .four img {
+            width: 255px;
+        }
+
+        .tct {
+            width: 45%;
+        }
+
+        .tct h1 {
+            font-size: 20px;
+        }
+
+        .five {
+            padding: 20px 30px;
+        }
+
+        .txt {
+            width: 35%;
+        }
+
+        .six {
+            padding: 40px 30px;
+        }
+
+        .kioa {
+            width: 45%;
+        }
+
+        .kioa h1 {
+            font-size: 20px;
+        }
+
+        .seven {
+            padding: 20px 30px;
+        }
+
+        .eight {
+            padding: 20px 30px;
+        }
+
+        .calke {
+            width: 170px;
+        }
+
+        .alone {
+            width: 130px;
+        }
+
+        .alone p {
+            font-size: 10px;
+            width: 80%;
+        }
+
+        .alone h6 {
+            font-size: 10px;
+            width: 80%;
+        }
+
+        .alone img {
+            width: 16px;
+        }
+
+        #lonly {
+            padding: 18px 11px;
+        }
+
+        .nine {
+            padding: 50px 30px;
+        }
+
+        .nine h1 {
+            font-size: 35px;
+            width: 50%;
+        }
+
+        footer {
+            padding: 50px 30px;
+        }
+
+
     }
 
-    .four img {
-        width: 255px;
+    @media(max-width:900px) {
+        .seven {
+            flex-direction: column;
+        }
+
+        .guf {
+            text-align: center;
+            align-items: center;
+            width: 90%;
+        }
     }
 
-    .tct {
-        text-align: center;
-        align-items: center;
-        width: 100%;
+    @media(max-width:768px) {
+        .five {
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .txt {
+            width: 100%;
+            text-align: center;
+        }
+
+        .txt h1 {
+            font-size: 15px;
+        }
+
+
+        .biy img {
+            width: 25px;
+        }
+
+        .biy h1 {
+            font-size: 15px;
+        }
+
+        .biy p {
+            font-size: 10px;
+        }
+
+        .six img {
+            width: 200px;
+        }
+
+        .big-div {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .text {
+            width: 100%;
+        }
+
+        .text h1 {
+            font-size: 20px;
+        }
+
+        .text p {
+            font-size: 10px;
+        }
+
     }
 
-    .tct h1 {
-        font-size: 20px;
+    @media(max-width:600px) {
+        nav {
+            display: none;
+        }
+
+        #burger {
+            display: flex;
+        }
+
+        .first {
+            flex-direction: column;
+            gap: 45px;
+        }
+
+        .first div {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+
+        .third {
+            padding: 20px 30px;
+        }
+
+        .third h1 {
+            font-size: 13px;
+        }
+
+        .four {
+            flex-direction: column;
+        }
+
+        .four img {
+            width: 255px;
+        }
+
+        .tct {
+            text-align: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .tct h1 {
+            font-size: 20px;
+        }
+
+        .six {
+            flex-direction: column;
+        }
+
+
+        .kioa {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+
+        .kioa h1 {
+            font-size: 20px;
+        }
+
+        .kioa button {
+            width: 100px;
+        }
+
+        .nlo img {
+            width: 20px;
+        }
+
+        #die {
+            width: 150px;
+        }
+
+        #final {
+            font-size: 7px;
+        }
+
+        .iaw {
+            font-size: 7px;
+        }
+
+        .nine h1 {
+            font-size: 20px;
+            width: 55%;
+        }
+
     }
-
-    .six {
-        flex-direction: column;
-    }
-
-
-    .kioa {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-
-    .kioa h1 {
-        font-size: 20px;
-    }
-
-    .kioa button {
-        width: 100px;
-    }
-
-    .nlo img {
-        width: 20px;
-    }
-
-    #die {
-        width: 150px;
-    }
-
-    #final {
-        font-size: 7px;
-    }
-
-    .iaw {
-        font-size: 7px;
-    }
-
-    .nine h1 {
-        font-size: 20px;
-        width: 55%;
-    }
-
-}
