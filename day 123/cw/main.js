@@ -1,0 +1,1 @@
+console.log("nika" + "mdivani".toUpperCase + "macdonalds street 25".toLowerCase)
