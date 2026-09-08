@@ -89,7 +89,6 @@ console.log(username.slice(0, 5))
 let texts = "I like cats. Cats are cute. My cat is sleeping."
 
 texts = texts.replaceAll("cats", "dogs")
-texts = texts.replaceAll("Cats", "Dogs")
 texts = texts.replaceAll("cat", "dog")
 
 console.log(texts);
@@ -106,7 +105,7 @@ console.log(sentence.slice(0, 25) + "...")
 //=====================
 
 
-let code = "AB-12-CD-34"
+let code = "AB-12-CD-43"
 
 code = code.replaceAll("-", "*")
 code = code.slice(0, -2) + "##"
