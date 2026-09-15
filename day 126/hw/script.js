@@ -4,7 +4,7 @@
 // თუ შეყვანილი ასაკი უარყოფითია, გამოიტანე „არასწორი ასაკი“.
 
 let age = prompt("enter age:")
-if (age > 18) {
+if (age >= 18) {
     console.log("სრულწლოვანი ხარ")
 } else if (age < 18) {
     console.log("არასრულწლოვანი ხარ")
@@ -19,15 +19,15 @@ if (age > 18) {
 // სხვა შემთხვევაში გამოიტანე „არასწორი პაროლი“.
 
 
-pas = "javascript123"
-let pass = prompt("please enter passcode:           ".trim())
-if (pass == pas) {
-    console.log("სწორი პაროლია")
-} else if (pass != " ") {
-    console.log("პაროლი არ შეგიყვანია")
-} else {
-    console.log("არასწორი პაროლი")
-}
+// pas = "javascript123"
+// let pass = prompt("please enter passcode:           ".trim())
+// if (pass == pas) {
+//     console.log("სწორი პაროლია")
+// } else if (pass != " ") {
+//     console.log("პაროლი არ შეგიყვანია")
+// } else {
+//     console.log("არასწორი პაროლი")
+// }
 
 // 3)რიცხვის კატეგორია
 // მომხმარებელს შეაყვანინე რიცხვი.
@@ -35,14 +35,14 @@ if (pass == pas) {
 // თუ რიცხვი უარყოფითია, გამოიტანე „უარყოფითი“.
 // თუ რიცხვი ნულის ტოლია, გამოიტანე „ნული“.
 
-let num = prompt("please enter num: ")
-if (num > 0) {
-    console.log("დადებითი")
-} else if (num < 0) {
-    console.log("უარყოფითი")
-} else {
-    console.log("ნული")
-}
+// let num = prompt("please enter num: ")
+// if (num > 0) {
+//     console.log("დადებითი")
+// } else if (num < 0) {
+//     console.log("უარყოფითი")
+// } else {
+//     console.log("ნული")
+// }
 
 // 4)მომხმარებელს შეაყვანინე სახელი.
 // გამოიყენე trim(), რათა ზედმეტი გამოტოვებები მოაშორო.
@@ -51,17 +51,17 @@ if (num > 0) {
 // თუ სახელი "admin"-ია, გამოიტანე „მოგესალმები ადმინისტრატორო!“.
 // სხვა შემთხვევაში გამოიტანე „მომხმარებელი ვერ მოიძებნა“.
 
-let name = prompt("please enter name: ");
+// let name = prompt("please enter name: ");
 
-name = name.trim().toLowerCase();
+// name = name.trim().toLowerCase();
 
-if (name == "goga") {
-    console.log("გამარჯობა, გოგა!");
-} else if (name == "admin") {
-    console.log("მოგესალმები ადმინისტრატორო!");
-} else {
-    console.log("მომხმარებელი ვერ მოიძებნა");
-}
+// if (name == "goga") {
+//     console.log("გამარჯობა, გოგა!");
+// } else if (name == "admin") {
+//     console.log("მოგესალმები ადმინისტრატორო!");
+// } else {
+//     console.log("მომხმარებელი ვერ მოიძებნა");
+// }
 
 // 5)მომხმარებელს შეაყვანინე ელფოსტის მისამართი.
 // გამოიყენე trim() და toLowerCase().
@@ -71,19 +71,19 @@ if (name == "goga") {
 // სხვა შემთხვევაში გამოიტანე „უცნობი ელფოსტის მისამართი“.
 // გამოიყენე endsWith() და შედარების ოპერატორები.
 
-let email = prompt("please enter email: ");
+// let email = prompt("please enter email: ")
 
-email = email.trim().toLowerCase();
+// email = email.trim().toLowerCase()
 
-if (email == "admin@gmail.com") {
-    console.log("ადმინისტრატორის ანგარიში");
-} else if (email.endsWith("@gmail.com")) {
-    console.log("Gmail-ის მომხმარებელი");
-} else if (email.endsWith("@outlook.com")) {
-    console.log("Outlook-ის მომხმარებელი");
-} else {
-    console.log("უცნობი ელფოსტის მისამართი");
-}
+// if (email == "admin@gmail.com") {
+//     console.log("ადმინისტრატორის ანგარიში")
+// } else if (email.endsWith("@gmail.com")) {
+//     console.log("Gmail-ის მომხმარებელი")
+// } else if (email.endsWith("@outlook.com")) {
+//     console.log("Outlook-ის მომხმარებელი")
+// } else {
+//     console.log("უცნობი ელფოსტის მისამართი")
+// }
 
 // 6)მომხმარებელს შეაყვანინე მომხმარებლის სახელი.
 // მოაშორე ზედმეტი გამოტოვებები trim()-ით.
@@ -94,21 +94,21 @@ if (email == "admin@gmail.com") {
 // სხვა შემთხვევაში გამოიტანე „მომხმარებლის სახელი მიღებულია“.
 
 
-let username = prompt("please enter name: ");
+// let username = prompt("please enter name: ")
 
-username = username.trim();
+// username = username.trim();
 
-if (username === "") {
-    console.log("სახელი აუცილებელია");
-} else if (username.length < 3) {
-    console.log("სახელი ძალიან მოკლეა");
-} else if (username.length > 12) {
-    console.log("სახელი ძალიან გრძელია");
-} else if (username.startsWith("admin")) {
-    console.log("ადმინისტრატორის სახელის გამოყენება აკრძალულია");
-} else {
-    console.log("მომხმარებლის სახელი მიღებულია");
-}
+// if (username === "") {
+//     console.log("სახელი აუცილებელია")
+// } else if (username.length < 3) {
+//     console.log("სახელი ძალიან მოკლეა")
+// } else if (username.length > 12) {
+//     console.log("სახელი ძალიან გრძელია")
+// } else if (username.startsWith("admin")) {
+//     console.log("ადმინისტრატორის სახელის გამოყენება აკრძალულია")
+// } else {
+//     console.log("მომხმარებლის სახელი მიღებულია")
+// }
 
 
 // 7)მომხმარებელს შეაყვანინე ტექსტი.
@@ -121,21 +121,21 @@ if (username === "") {
 
 
 
-let text = prompt("please enter text: ");
+// let text = prompt("please enter text: ")
 
-text = text.trim().toLowerCase();
+// text = text.trim().toLowerCase()
 
-if (text === "open sesame") {
-    console.log("საიდუმლო კარი გაიღო");
-} else if (text.startsWith("open")) {
-    console.log("კოდი არასრულია");
-} else if (text.startsWith("close")) {
-    console.log("კარი დაიხურა");
-} else if (text.length < 5) {
-    console.log("ტექსტი ძალიან მოკლეა");
-} else {
-    console.log("უცნობი ბრძანება");
-}
+// if (text == "open sesame") {
+//     console.log("საიდუმლო კარი გაიღო")
+// } else if (text.startsWith("open")) {
+//     console.log("კოდი არასრულია")
+// } else if (text.startsWith("close")) {
+//     console.log("კარი დაიხურა")
+// } else if (text.length < 5) {
+//     console.log("ტექსტი ძალიან მოკლეა")
+// } else {
+//     console.log("უცნობი ბრძანება")
+// }
 
 
 // 8)შექმენი პროგრამა, რომელიც მომხმარებელს შეაყვანინებს ასაკს, ბილეთის ტიპს და მომხმარებლის სახელს.
@@ -154,6 +154,6 @@ if (text === "open sesame") {
 // გაითვალისწინე, რომ არასწორი ასაკის ან ბილეთის ტიპის შემთხვევაში პროგრამამ არ უნდა გააგრძელოს ფასის გამოთვლა.
 
 
-
+console.log(false && true)
 
 
