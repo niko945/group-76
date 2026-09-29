@@ -33,8 +33,8 @@ const checkAge = function(age) {
     }
 }
 
-console.log(checkAge(20))
-console.log(checkAge(15))
+console.log(checkAge(21))
+console.log(checkAge(13))
 
 //================= 
 
