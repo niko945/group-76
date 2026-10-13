@@ -173,7 +173,7 @@ let playe = Math.floor(Math.random() * 10) + 21
 let Monster = Math.floor(Math.random() * 10) + 21
 
 if(playe === 25) {
-    playe + 10
+    playe += 10
 }
 
 if(playe > Monster) {
