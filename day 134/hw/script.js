@@ -74,6 +74,8 @@ if (res > 80) {
     score = 20
 } else if (res > 50) {
     score = 10
+}else {
+    score = 0
 }
 
 console.log(score)
