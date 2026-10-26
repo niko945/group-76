@@ -86,6 +86,8 @@ let newNumbers = numberss.flat()
 console.log(newNumbers)
 console.log(numberss)
 
+//=======================================
+
 let firstt = ["HTML", "CSS"]
 let secondd = ["JavaScript", "React"]
 
