@@ -1,3 +1,4 @@
+//1)let numbers = [12, 25, 8, 40, 17, 30]
 // მოთხოვნები:
 // 1. for ციკლის გამოყენებით დაბეჭდე ყველა ელემენტი.
 // 2. დაბეჭდე მხოლოდ ლუწი რიცხვები.
@@ -88,8 +89,6 @@ for (let i = 0; i < prices.length; i++) {
 
 
 // 5)let scores = [45, 90, 67, 32, 100, 75, 50];
-
-
 // მოთხოვნები:
 // 1. დაბეჭდე ყველა ქულა.
 // 2. დაბეჭდე მხოლოდ 60-ზე მაღალი ქულები.
@@ -117,15 +116,9 @@ for (let i = 0; i < scores.length; i++) {
     }
 }
 
-console.log(scores)
-console.log(count)
-console.log(max)
-
 
 // 6)let numbers = [5, 12, 8, 21, 30, 7, 16];
 // let newNumbers = [];
-
-
 // მოთხოვნები:
 // 1. for ციკლის გამოყენებით newNumbers მასივში დაამატე მხოლოდ ლუწი რიცხვები.
 // 2. მიღებული რიცხვები გაამრავლე 3-ზე.
@@ -149,8 +142,6 @@ for (let i = 0; i < newNumbers.length; i++) {
 console.log(newNumbers)
 
 // 7)let numbers = [12, -5, 8, -20, 0, 15, -3, 7];
-
-
 // მოთხოვნები:
 // 1. დაითვალე დადებითი რიცხვების რაოდენობა.
 // 2. დაითვალე უარყოფითი რიცხვების რაოდენობა.
@@ -183,8 +174,6 @@ for (let i = 0; i < num.length; i++) {
 
 // 8)let students = ["Nika", "Ana", "Giorgi", "Luka", "Mariam", "Dato"];
 // let selectedStudents = [];
-
-
 // მოთხოვნები:
 // 1. ახალ მასივში დაამატე მხოლოდ ის სტუდენტები, რომელთა სახელიც 4 სიმბოლოზე მეტია.
 // 2. თუ სახელი იწყება "M" ასოზე, დაბეჭდე "Special student: სახელი".
@@ -206,12 +195,7 @@ for (let i = 0; i < students.length; i++) {
     }
 }
 
-console.log(selectedStudents)
-console.log(countt)
-
 // 9)let points = [15, 40, 65, 20, 90, 35, 100];
-
-
 // მოთხოვნები:
 // 1. თუ ქულა 50-ზე ნაკლებია, დაუმატე 10.
 // 2. თუ ქულა 50-დან 80-ის ჩათვლითაა, დაუმატე 5.
@@ -222,7 +206,7 @@ console.log(countt)
 
 let points = [15, 40, 65, 20, 90, 35, 100];
 
-let coun = 0;
+let coun = 0
 
 for (let i = 0; i < points.length; i++) {
 
@@ -236,8 +220,6 @@ for (let i = 0; i < points.length; i++) {
         coun++
     }
 }
-
-console.log(points)
 console.log(coun)
 
 // 10)let numbers = [12, 5, 30, 18, 7, 42, 15, 60, 9];
