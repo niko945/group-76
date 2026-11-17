@@ -15,6 +15,7 @@
 //     console.log(i)
 //     i--
 // }
+// console.log("start!")
 
 // // 3)გამოიტანე ყველა ლუწი რიცხვი 2-დან 20-ის ჩათვლით.
 // // გამოიყენე while ციკლი.
@@ -141,7 +142,7 @@
 //     i++
 // }
 
-// let average = sum / count;
+// let average = sum / count
 
 // console.log(sum)
 // console.log(average)
@@ -205,6 +206,10 @@
 // - თუ არასწორია, აცნობე, რომ არასწორი პასუხია.
 // - თუ სამივე მცდელობა ამოიწურა და ვერ გამოიცნო, გამოიტანე "You Lose!".
 // - გამოიყენე while ციკლი.
+
+
+
+
 
 // 15)let names = ["Goga", "Nika", "Saba"];
 // let surnames = ["Chalauri", "Beridze", "Maisuradze"];
