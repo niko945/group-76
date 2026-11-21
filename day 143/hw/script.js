@@ -87,13 +87,6 @@
 // მომხმარებელს სთხოვე რიცხვის შეყვანა.
 // - თუ რიცხვი უარყოფითია ან ნულის ტოლია, ხელახლა სთხოვე შეყვანა.
 // - როგორც კი დადებით რიცხვს შეიყვანს, დაბეჭდე "Valid Number!".
-// let num
-
-// do {
-//   num = Number(prompt("შეიყვანეთ დადებითი რიცხვი:"))
-// } while (num <= 0 || Number.isNaN(num))
-
-// console.log("Valid Number!")
 
 // 9. რიცხვების დათვლა
 // მომხმარებელს შემოატანინე რიცხვები მანამ, სანამ არ შეიყვანს 0-ს.
@@ -183,8 +176,31 @@
 // - თუ სწორ პაროლს შეიყვანს, დაბეჭდე "Login Successful!" და შეწყვიტე ციკლი.
 // - თუ 5-ჯერ არასწორად შეიყვანს, დაბეჭდე "Account Locked!".
 
+// let password
+// let count = 0
+// do{
+//     password = prompt("please enter password: ")
+//     count++
+
+//     if(password === "admin123"){
+//         console.log("Login Successful!")
+//         break
+//     }
+// }while(count < 5)
+// if(count === 5 && password !== "admin123"){
+//     console.log("Account Locked!")
+// }
+
 // 17)let numbers = [12, 8, 5, 14, -3, 9, -7, 20];
 // - გაიარე მასივზე ციკლით.
 // - იპოვე პირველი უარყოფითი რიცხვი.
 // - დაბეჭდე ეს რიცხვი.
 // - შეწყვიტე ციკლი
+
+// let numbers = [12, 8, 5, 14, -3, 9, -7, 20]
+// for(let i = 0;i < numbers.length;i++){
+//     if(numbers[i] < 0){
+//         console.log(numbers[i])
+//         break
+//     }
+// }
