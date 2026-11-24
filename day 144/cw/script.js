@@ -1,0 +1,1 @@
+console.log("davaleba dabweret cw")
