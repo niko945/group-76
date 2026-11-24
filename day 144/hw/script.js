@@ -31,10 +31,10 @@
 // for (let i = 0; i < numbers.length; i++) {
 //     if (numbers[i] === 30) {
 //         break
-//     }
-//     if (numbers[i] > 10) {
+//     }else if (numbers[i] > 10) {
 //         console.log(numbers[i])
 //     }
+
 // }
 
 //==============================================================================
@@ -52,12 +52,12 @@
 // for (let i = 0; i < scores.length; i++) {
 //     if (scores[i] === 100) {
 //         break
-//     }
-//     if (scores[i] < 50) {
+//     }else if (scores[i] < 50) {
 //         console.log("Failed!")
-//     } else if (scores[i] >= 90) {
+//     }else if (scores[i] >= 90) {
 //         console.log("Excellent!")
 //     }
+
 // }
 
 //==============================================================================
@@ -149,10 +149,10 @@
 // for (let i = 0; i < numbers.length; i++) {
 //     if (numbers[i] > 30 && numbers[i] % 5 === 0) {
 //         break
-//     }
-//     if (numbers[i] % 2 === 0) {
+//     }else if (numbers[i] % 2 === 0) {
 //         evenCount++
 //     }
+
 // }
 
 // console.log(evenCount)
@@ -173,7 +173,7 @@
 
 //     if (age >= 18 && age <= 60) {
 //         console.log("Valid Age!")
-//         isValid = true;
+//         isValid = true
 //         break
 //     } else {
 //         console.log("Invalid Age!")
