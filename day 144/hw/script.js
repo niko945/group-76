@@ -81,7 +81,7 @@
 //     }
 // }
 
-// if (!isGranted) {
+// if (isGranted === false) {
 //     console.log("Access Denied!")
 // }
 
@@ -106,7 +106,7 @@
 //     }
 // }
 
-// if (!found) {
+// if (found === false) {
 //     console.log("Not Found!")
 // }
 
@@ -180,6 +180,6 @@
 //     }
 // }
 
-// if (!isValid) {
+// if (isValid === false) {
 //     console.log("Attempts Finished!")
 // }
